@@ -28,7 +28,7 @@ def remote_exists(remote):
 @click.command()
 @click.option('--commit-message', prompt="📜 Enter your commit message", help="The Git commit message.")
 @click.option('--git-remote', prompt="🛰️ Enter the Git remote to push to", default="origin", show_default=True, help="Git remote name.")
-@click.option('--ghp-remote', prompt="🚀 Enter the remote for ghp-import", default="origin", show_default=True, help="Remote for ghp-import deployment.")
+@click.option('--ghp-remote', default="origin", show_default=True, help="Remote for ghp-import deployment.")
 def main(commit_message, git_remote, ghp_remote):
     os.chdir(Path(__file__).resolve().parents[1])
 
