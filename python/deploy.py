@@ -136,7 +136,13 @@ def main(commit_message, git_remote, ghp_remote):
         click.secho("🆕 Remote 'gh-pages' branch will be created by ghp-import.", fg="yellow")
 
     click.secho("🚀 Deploying with ghp-import...", fg="cyan")
-    run(f"ghp-import -n -p -f -r {ghp_remote} _build/html")
+
+    # Defensive patch: if ghp_remote was mistakenly set to "gh-pages" (a branch, not a remote)
+    if ghp_remote == "gh-pages":
+        ghp_remote = "origin"
+
+    run(f"ghp-import -n -p -f -b gh-pages -r {ghp_remote} _build/html")
+
 
 if __name__ == "__main__":
     main()
