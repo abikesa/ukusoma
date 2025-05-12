@@ -97,3 +97,4 @@ Do not attempt compilation.
 # flick 20250510191941-c2d1
 # flick 20250510222141-aFWZ
 # flick 20250512002726-QjMq
+# flick 20250512150531-OAZ6
