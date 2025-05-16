@@ -103,3 +103,7 @@ This file was deprecated after a reproducibility incident.
 # flick 20250512145158-6BJk
 # flick 20250512150532-81DG
 # flick 20250512153704-Pnra
+# flick 20250513203811-kYk0
+# flick 20250516031108-Hhzm
+# flick 20250516202106-JuF5
+# flick 20250516233450-uzMc

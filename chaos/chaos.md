@@ -98,3 +98,9 @@ Do not attempt compilation.
 # flick 20250510222141-aFWZ
 # flick 20250512002726-QjMq
 # flick 20250512150531-OAZ6
+# flick 20250513151532-UuxO
+# flick 20250513153205-amvY
+# flick 20250513155247-oJtx
+# flick 20250516032526-YQGm
+# flick 20250516034623-Dspw
+# flick 20250516233448-ff3h

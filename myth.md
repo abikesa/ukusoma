@@ -105,3 +105,9 @@ This file was deprecated after a reproducibility incident.
 # flick 20250511225944-DNXy
 # flick 20250512150531-hLvX
 # flick 20250512151158-FY8H
+# flick 20250512161845-xpeP
+# flick 20250512221225-tuiM
+# flick 20250513151530-eoGS
+# flick 20250513203810-2ucc
+# flick 20250513204429-QrXg
+# flick 20250516025009-DYWQ
